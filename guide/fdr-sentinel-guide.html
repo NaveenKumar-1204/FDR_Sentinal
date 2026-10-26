@@ -1,0 +1,318 @@
+<title>FDR Sentinel X Guide</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one reading column; a numbered 4-step journey, then a catalogue of every screen grouped as it appears in the app's menu. */
+:root {
+  --bg: #f5f6fb;
+  --paper: #ffffff;
+  --ink: #161a33;
+  --ink-2: #464b6b;
+  --muted: #74789a;
+  --line: #e2e4f0;
+  --accent: #4f5ff0;
+  --accent-soft: #eceefe;
+  --good: #11875d;   --good-soft: #e3f5ec;
+  --warn: #a66300;   --warn-soft: #fdf1dc;
+  --bad: #c42f45;    --bad-soft: #fde8eb;
+  --gray-soft: #eeeff5;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1120; --paper: #181b2e; --ink: #eceefa; --ink-2: #b9bcd6; --muted: #8a8eac; --line: #2a2e47;
+  --accent: #8d98ff; --accent-soft: #232850;
+  --good: #4fd19c; --good-soft: #143326; --warn: #f2b14f; --warn-soft: #382a12; --bad: #ff7d8f; --bad-soft: #3a1820; --gray-soft: #23263b;
+  color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #0f1120; --paper: #181b2e; --ink: #eceefa; --ink-2: #b9bcd6; --muted: #8a8eac; --line: #2a2e47;
+  --accent: #8d98ff; --accent-soft: #232850;
+  --good: #4fd19c; --good-soft: #143326; --warn: #f2b14f; --warn-soft: #382a12; --bad: #ff7d8f; --bad-soft: #3a1820; --gray-soft: #23263b;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font: 400 16.5px/1.55 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 64px;
+}
+.wrap { max-width: 920px; margin: 0 auto; display: grid; gap: 48px; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+h1 { font-size: clamp(32px, 6vw, 48px); font-weight: 800; line-height: 1.05; }
+h2 { font-size: 26px; font-weight: 800; }
+h3 { font-size: 19px; font-weight: 600; }
+p { margin: 0; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.eyebrow { font: 700 12.5px/1 var(--body); text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); }
+.lead { color: var(--ink-2); font-size: 18px; max-width: 62ch; }
+.menu { font: 500 13px/1.3 var(--mono); color: var(--ink-2); background: var(--gray-soft); border-radius: 6px; padding: 3px 8px; display: inline-block; }
+
+header { display: grid; gap: 16px; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.btn { display: inline-flex; align-items: center; gap: 8px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; padding: 11px 18px; border-radius: 10px; }
+:root:not([data-theme="light"]) .btn { color: #fff; }
+.url { font: 500 13.5px var(--mono); color: var(--muted); user-select: all; }
+
+.idea { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; display: grid; gap: 14px; }
+.idea dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; }
+.idea dt { font-weight: 700; }
+.idea dd { margin: 0; color: var(--ink-2); }
+
+section { display: grid; gap: 18px; }
+.section-head { display: grid; gap: 6px; }
+.section-head p { color: var(--ink-2); }
+
+.journey { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; counter-reset: step; }
+.journey li { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: grid; gap: 6px; align-content: start; counter-increment: step; min-width: 0; }
+.journey li::before { content: counter(step); font: 800 15px/1 var(--display); color: #fff; background: var(--accent); width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; margin-bottom: 4px; }
+.journey p { color: var(--ink-2); font-size: 15px; }
+
+.group-label { font: 700 13px/1 var(--body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); padding-top: 6px; border-top: 1px solid var(--line); padding-top: 14px; }
+.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 20px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.card .top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 12px; }
+.card .for { color: var(--ink-2); }
+.card ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; color: var(--ink); font-size: 15.5px; }
+.card .open { font-weight: 700; font-size: 14.5px; text-decoration: none; justify-self: start; }
+.card .open:hover { text-decoration: underline; }
+.card.wide { grid-column: 1 / -1; }
+.tag { font: 700 11.5px/1 var(--body); text-transform: uppercase; letter-spacing: 0.06em; padding: 4px 8px; border-radius: 6px; background: var(--warn-soft); color: var(--warn); }
+
+.status { width: 100%; border-collapse: collapse; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.status td { padding: 12px 16px; border-top: 1px solid var(--line); vertical-align: top; }
+.status tr:first-child td { border-top: 0; }
+.status td:first-child { width: 1%; white-space: nowrap; }
+.status td:last-child { color: var(--ink-2); }
+.pill { display: inline-block; font-weight: 700; font-size: 13.5px; padding: 3px 10px; border-radius: 999px; }
+.p-good { background: var(--good-soft); color: var(--good); }
+.p-warn { background: var(--warn-soft); color: var(--warn); }
+.p-bad { background: var(--bad-soft); color: var(--bad); }
+.p-gray { background: var(--gray-soft); color: var(--ink-2); }
+
+.demo { margin: 0; padding: 0; list-style: none; display: grid; gap: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; }
+.demo li { display: grid; grid-template-columns: 64px 1fr; gap: 14px; padding: 14px 18px; border-top: 1px solid var(--line); }
+.demo li:first-child { border-top: 0; }
+.demo .t { font: 500 13px/1.6 var(--mono); color: var(--accent); font-variant-numeric: tabular-nums; }
+.demo b { display: block; }
+.demo span { color: var(--ink-2); font-size: 15px; }
+
+.notes { margin: 0; padding-left: 20px; display: grid; gap: 8px; color: var(--ink-2); }
+.notes strong { color: var(--ink); }
+footer { color: var(--muted); font-size: 14px; }
+
+@media (max-width: 760px) {
+  .journey { grid-template-columns: 1fr 1fr; }
+  .cards { grid-template-columns: 1fr; }
+}
+@media (max-width: 440px) {
+  .journey { grid-template-columns: 1fr; }
+  .idea dl { grid-template-columns: 1fr; gap: 2px; }
+  .idea dd { margin-bottom: 8px; }
+  .status td:first-child { white-space: normal; }
+}
+</style>
+
+<div class="wrap">
+
+  <header>
+    <span class="eyebrow">User guide</span>
+    <h1>FDR Sentinel X</h1>
+    <p class="lead">Every screen in the dashboard, what it is for, and which buttons to press. Read the first two sections and you can use the whole app.</p>
+    <div class="cta">
+      <a class="btn" href="https://fdr-sentinel-x.vercel.app/" target="_blank" rel="noopener">Open the dashboard →</a>
+      <span class="url">fdr-sentinel-x.vercel.app</span>
+    </div>
+  </header>
+
+  <div class="idea">
+    <span class="eyebrow">The idea in 30 seconds</span>
+    <dl>
+      <dt>What is an FDR?</dt>
+      <dd>A Fixed Deposit Receipt. Colleges put money in a bank and give AICTE the FDR as a security deposit.</dd>
+      <dt>What goes wrong?</dt>
+      <dd>Fake FDRs, the same FDR shown by two colleges, or the college quietly closing the deposit early.</dd>
+      <dt>What this app does</dt>
+      <dd>Reads the FDR, asks the bank if it is real, has the bank lock it for AICTE, and gives a QR receipt anyone can check.</dd>
+    </dl>
+  </div>
+
+  <section>
+    <div class="section-head">
+      <h2>The main journey</h2>
+      <p>Every FDR goes through these four steps, in this order. Each FDR's page shows a progress bar with the same steps.</p>
+    </div>
+    <ol class="journey">
+      <li><h3>Add the FDR</h3><p>Upload a scan or phone photo. The app reads the details.</p></li>
+      <li><h3>Bank confirms</h3><p>The bank says the FDR is genuine.</p></li>
+      <li><h3>Bank locks it</h3><p>The deposit is locked for AICTE (a "lien"), so nobody can close it early.</p></li>
+      <li><h3>Give QR receipt</h3><p>A signed receipt that anyone can scan to check.</p></li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Screen catalogue</h2>
+      <p>Grouped the way they appear in the left menu. "More tools" is a fold-out at the bottom of the menu.</p>
+    </div>
+
+    <div class="group-label">Main menu</div>
+    <div class="cards">
+      <article class="card">
+        <div class="top"><h3>Home</h3><span class="menu">Menu → Home</span></div>
+        <p class="for">Your start page. Shows how many FDRs need you and your to-do list.</p>
+        <ol><li>Look at the big headline: how many FDRs need attention.</li><li>Click any item in <b>Your to-do list</b> to fix it.</li><li>Open <b>More numbers</b> for charts.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/" target="_blank" rel="noopener">Open Home →</a>
+      </article>
+
+      <article class="card">
+        <div class="top"><h3>Add an FDR</h3><span class="menu">Menu → Add an FDR</span></div>
+        <p class="for">Upload an FDR. The app reads the number, bank, amount and dates for you.</p>
+        <ol><li>Upload a photo, scan or PDF, or pick a sample under <b>No FDR to hand? Try a sample</b>.</li><li>Wait a few seconds while it reads.</li><li>Green fields are sure. Yellow ones: compare with the scan, fix, then tick.</li><li>Click <b>Save FDR</b>.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/upload" target="_blank" rel="noopener">Open Add an FDR →</a>
+      </article>
+
+      <article class="card">
+        <div class="top"><h3>Needs attention</h3><span class="menu">Menu → Needs attention</span></div>
+        <p class="for">Every problem found, most urgent first. Each one tells you what to do.</p>
+        <ol><li>Use the chips at the top to show only urgent ones.</li><li>Read the <b>What to do</b> line.</li><li>Click <b>Open FDR</b> to act on it.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/alerts" target="_blank" rel="noopener">Open Needs attention →</a>
+      </article>
+
+      <article class="card">
+        <div class="top"><h3>All FDRs</h3><span class="menu">Menu → All FDRs</span></div>
+        <p class="for">The full list of FDRs. Problems are listed first.</p>
+        <ol><li>Search by FDR number, college or bank.</li><li>Filter: <b>Needs action</b>, <b>Waiting for bank</b> or <b>Safe</b>.</li><li>Click a row to open that FDR's page.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/registry" target="_blank" rel="noopener">Open All FDRs →</a>
+      </article>
+
+      <article class="card wide">
+        <div class="top"><h3>An FDR's page</h3><span class="menu">All FDRs → click any FDR</span></div>
+        <p class="for">Everything about one deposit, and the one button you should press next. This is where most of the work happens.</p>
+        <ol>
+          <li>Look at the progress bar: <b>Added → Bank confirmed → Locked for AICTE → QR receipt given</b>.</li>
+          <li>Press the button next to it. It changes with the step: <b>Ask to confirm</b>, then <b>Ask to lock</b>, then <b>Give QR receipt</b>, then <b>View receipt</b>.</li>
+          <li>Check <b>Problems found</b> and compare the uploaded scan with the details.</li>
+          <li>Record your call: <b>Looks genuine</b> or <b>Investigate</b>.</li>
+          <li>For audits, open <b>Advanced details</b>: similar FDRs, history, risk score and timeline.</li>
+        </ol>
+      </article>
+    </div>
+
+    <div class="group-label">More tools</div>
+    <div class="cards">
+      <article class="card">
+        <div class="top"><h3>Bank view</h3><span class="tag">Demo</span></div>
+        <p class="for">Pretend to be the bank. Answer AICTE's requests here and the dashboard updates live.</p>
+        <ol><li>Open it in a new tab (same browser).</li><li>Under <b>Requests from AICTE</b>, press <b>Genuine</b>, <b>Details differ</b>, <b>Not found</b> or <b>Mark lien</b>.</li><li>Try <b>Customer asks to close early</b> to see the lock protect AICTE.</li><li>Click <b>Back to dashboard</b> when done.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/bank" target="_blank" rel="noopener">Open Bank view →</a>
+      </article>
+
+      <article class="card">
+        <div class="top"><h3>Check a receipt</h3><span class="menu">More tools</span></div>
+        <p class="for">Anyone can check whether a QR receipt is genuine. No login needed.</p>
+        <ol><li>Choose <b>Upload photo</b>, <b>Use camera</b> or <b>Paste link</b>.</li><li>Read the result: genuine or fake, plus the deposit's live status.</li><li>Try <b>Try to fake it</b> to watch a changed receipt fail.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/verify" target="_blank" rel="noopener">Open Check a receipt →</a>
+      </article>
+
+      <article class="card">
+        <div class="top"><h3>Maturity dates</h3><span class="menu">More tools</span></div>
+        <p class="for">When each FDR ends. Overdue and soon-ending ones come first.</p>
+        <ol><li>Look at the top of the list.</li><li>Remind those colleges to renew before the date passes.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/lifecycle" target="_blank" rel="noopener">Open Maturity dates →</a>
+      </article>
+
+      <article class="card">
+        <div class="top"><h3>Return a deposit</h3><span class="menu">More tools</span></div>
+        <p class="for">A checklist before giving an FDR back to a college.</p>
+        <ol><li>Each request shows items as <b>Done</b> or <b>Missing</b>.</li><li>Return the deposit only when every item is done and no urgent problem is open.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/release" target="_blank" rel="noopener">Open Return a deposit →</a>
+      </article>
+
+      <article class="card">
+        <div class="top"><h3>Duplicate map</h3><span class="menu">More tools</span></div>
+        <p class="for">Shows FDRs that look like the same deposit used twice.</p>
+        <ol><li>Each circle is an FDR. A line means two of them match.</li><li>Click a circle to open that FDR.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/graph" target="_blank" rel="noopener">Open Duplicate map →</a>
+      </article>
+
+      <article class="card">
+        <div class="top"><h3>Activity log</h3><span class="menu">More tools</span></div>
+        <p class="for">Every upload, check and decision, in order. Each entry is locked to the one before it.</p>
+        <ol><li>Press <b>Check nothing was changed</b>.</li><li>To demo it: press <b>Simulate tampering</b>, check again, and see it catch the change.</li><li>Press <b>Restore</b> afterwards.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/audit" target="_blank" rel="noopener">Open Activity log →</a>
+      </article>
+
+      <article class="card wide">
+        <div class="top"><h3>Demo test cases</h3><span class="tag">Demo</span></div>
+        <p class="for">Adds fake problem FDRs (duplicates, wrong amounts, early closures) so you can watch the app catch each one.</p>
+        <ol><li>Press <b>Inject test cases</b>.</li><li>Each card shows the problem added and whether it was caught.</li><li>Press <b>Remove test records</b> when finished.</li></ol>
+        <a class="open" href="https://fdr-sentinel-x.vercel.app/#/stress" target="_blank" rel="noopener">Open Demo test cases →</a>
+      </article>
+    </div>
+
+    <div class="group-label">Other screens</div>
+    <div class="cards">
+      <article class="card">
+        <div class="top"><h3>QR receipt</h3><span class="menu">FDR page → View receipt</span></div>
+        <p class="for">The signed receipt for one FDR, with its QR code.</p>
+        <ol><li>Give it from a <b>Safe</b> FDR with <b>Give QR receipt</b>.</li><li>Use <b>Download image</b> to save it, or <b>Check it</b> to verify.</li></ol>
+      </article>
+      <article class="card">
+        <div class="top"><h3>Profile and Settings</h3><span class="menu">Top-right name</span></div>
+        <p class="for">Your details, theme and preferences.</p>
+        <ol><li>Click your name at the top right.</li><li>Profile has <b>Sign out</b>. Settings has <b>Clear local data</b> to start fresh.</li></ol>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>What the status labels mean</h2>
+      <p>You will see these coloured labels on every list.</p>
+    </div>
+    <div style="overflow-x:auto">
+      <table class="status">
+        <tr><td><span class="pill p-good">Safe</span></td><td>Bank confirmed it and locked it. Nothing to do.</td></tr>
+        <tr><td><span class="pill p-warn">Safe · matures soon</span></td><td>Safe, but it ends soon. Remind the college to renew.</td></tr>
+        <tr><td><span class="pill p-gray">Waiting for bank</span></td><td>You asked the bank. No reply yet.</td></tr>
+        <tr><td><span class="pill p-bad">Needs action</span></td><td>A problem was found, such as a duplicate. Open it and follow "What to do".</td></tr>
+        <tr><td><span class="pill p-bad">Bank problem</span></td><td>The bank said the details differ, or it has no such deposit.</td></tr>
+        <tr><td><span class="pill p-bad">Closed at bank</span></td><td>The deposit was closed. AICTE is no longer protected.</td></tr>
+        <tr><td><span class="pill p-gray">Returned</span></td><td>Given back to the college. Finished.</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Show it in 5 minutes</h2>
+      <p>A demo order for judges that covers every main feature.</p>
+    </div>
+    <ol class="demo">
+      <li><span class="t">0:00</span><div><b>Home</b><span>"15 FDRs need attention." Explain the problem in one line.</span></div></li>
+      <li><span class="t">0:30</span><div><b>Add an FDR → Phone photo sample</b><span>Show it reading the details. Save it.</span></div></li>
+      <li><span class="t">1:30</span><div><b>Add an FDR → Duplicate (try this!)</b><span>Show it catching the same deposit claimed twice.</span></div></li>
+      <li><span class="t">2:15</span><div><b>FDR page → Ask to confirm, then Bank view</b><span>Press Genuine and Mark lien as the bank. Watch the progress bar fill.</span></div></li>
+      <li><span class="t">3:15</span><div><b>Give QR receipt → scan with a phone</b><span>The phone shows "Genuine". Then try "Try to fake it".</span></div></li>
+      <li><span class="t">4:15</span><div><b>Activity log → Simulate tampering</b><span>The check catches the edited record. Press Restore.</span></div></li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="section-head"><h2>Good to know</h2></div>
+    <ul class="notes">
+      <li><strong>All data is made up.</strong> No real colleges, banks or deposits.</li>
+      <li><strong>Each browser has its own copy.</strong> What you add on your laptop does not appear on someone else's phone.</li>
+      <li><strong>Bank view syncs only with tabs in the same browser.</strong> Open it as a new tab, not on another device.</li>
+      <li><strong>Want to start over?</strong> Settings → Clear local data.</li>
+      <li><strong>It is a prototype.</strong> The bank is simulated and the receipt key is a demo key.</li>
+    </ul>
+  </section>
+
+  <footer>FDR Sentinel X · SIH 2026 prototype · fdr-sentinel-x.vercel.app</footer>
+</div>

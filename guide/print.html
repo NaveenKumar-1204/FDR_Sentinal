@@ -1,0 +1,109 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>FDR Sentinel X – Quick Guide</title>
+<style>
+@page { size: A4; margin: 12mm 13mm 11mm; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 10pt/1.42 "Segoe UI", Arial, sans-serif; color: #161a33; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+h1 { font-size: 22pt; margin: 0; letter-spacing: -0.3px; }
+h2 { font-size: 12.5pt; margin: 11px 0 5px; color: #2f3bb5; }
+p { margin: 0; }
+.sub { color: #464b6b; margin-top: 2px; }
+.url { font-family: Consolas, monospace; color: #4f5ff0; font-weight: 600; }
+.idea { background: #eef0fe; border-radius: 8px; padding: 9px 12px; margin-top: 10px; display: grid; grid-template-columns: 105px 1fr; gap: 3px 10px; }
+.idea b { color: #2f3bb5; }
+.steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px; }
+.step { border: 1px solid #dfe2f0; border-radius: 8px; padding: 7px 9px; }
+.step .n { display: inline-block; width: 18px; height: 18px; border-radius: 50%; background: #4f5ff0; color: #fff; text-align: center; font-weight: 700; font-size: 9pt; line-height: 18px; margin-right: 4px; }
+.step p { color: #464b6b; font-size: 9pt; margin-top: 3px; }
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; font-size: 8.5pt; text-transform: uppercase; letter-spacing: 0.5px; color: #74789a; padding: 4px 7px; border-bottom: 1.5px solid #c9cde3; }
+td { padding: 4px 7px; border-bottom: 1px solid #e6e8f2; vertical-align: top; }
+td:first-child { font-weight: 700; white-space: nowrap; }
+td.where { font-family: Consolas, monospace; font-size: 8.5pt; color: #464b6b; white-space: nowrap; }
+.grp td { background: #f3f4fa; font-size: 8.5pt; text-transform: uppercase; letter-spacing: 0.6px; color: #4f5ff0; padding: 3px 7px; }
+.pill { display: inline-block; font-weight: 700; font-size: 8.5pt; padding: 1px 8px; border-radius: 99px; white-space: nowrap; }
+.g { background: #e3f5ec; color: #11875d; } .w { background: #fdf1dc; color: #a66300; } .b { background: #fde8eb; color: #c42f45; } .x { background: #eeeff5; color: #464b6b; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.demo td:first-child { font-family: Consolas, monospace; color: #4f5ff0; width: 38px; }
+ul { margin: 0; padding-left: 16px; } li { margin: 2px 0; }
+.page2 { break-before: page; }
+footer { margin-top: 12px; font-size: 8.5pt; color: #74789a; border-top: 1px solid #e6e8f2; padding-top: 5px; }
+</style></head><body>
+
+<h1>FDR Sentinel X — Quick Guide</h1>
+<p class="sub">How to use the dashboard. Open it at <span class="url">fdr-sentinel-x.vercel.app</span></p>
+
+<div class="idea">
+  <b>What is an FDR?</b><span>A Fixed Deposit Receipt. Colleges put money in a bank and give AICTE the FDR as a security deposit.</span>
+  <b>What goes wrong?</b><span>Fake FDRs, the same FDR shown by two colleges, or the deposit closed early in secret.</span>
+  <b>What the app does</b><span>Reads the FDR, asks the bank if it is real, has the bank lock it for AICTE, and gives a QR receipt anyone can check.</span>
+</div>
+
+<h2>The 4 steps every FDR goes through</h2>
+<div class="steps">
+  <div class="step"><span class="n">1</span><b>Add the FDR</b><p>Upload a scan or photo. The app reads it.</p></div>
+  <div class="step"><span class="n">2</span><b>Bank confirms</b><p>The bank says it is genuine.</p></div>
+  <div class="step"><span class="n">3</span><b>Bank locks it</b><p>Locked for AICTE, so it can't be closed early.</p></div>
+  <div class="step"><span class="n">4</span><b>Give QR receipt</b><p>A signed receipt anyone can scan.</p></div>
+</div>
+
+<h2>Screens and what to do</h2>
+<table>
+  <tr><th>Screen</th><th>Where</th><th>What to do</th></tr>
+  <tr class="grp"><td colspan="3">Main menu</td></tr>
+  <tr><td>Home</td><td class="where">Menu</td><td>See how many FDRs need you. Click an item in <b>Your to-do list</b> to fix it.</td></tr>
+  <tr><td>Add an FDR</td><td class="where">Menu</td><td>Upload a photo, scan or PDF (or try a sample). Check the yellow fields, then <b>Save FDR</b>.</td></tr>
+  <tr><td>Needs attention</td><td class="where">Menu</td><td>All problems, most urgent first. Read <b>What to do</b>, then click <b>Open FDR</b>.</td></tr>
+  <tr><td>All FDRs</td><td class="where">Menu</td><td>Search or filter (Needs action / Waiting for bank / Safe). Click a row to open it.</td></tr>
+  <tr><td>An FDR's page</td><td class="where">All FDRs → row</td><td>Follow the progress bar. Press the next button: <b>Ask to confirm → Ask to lock → Give QR receipt → View receipt</b>. Record <b>Looks genuine</b> or <b>Investigate</b>.</td></tr>
+  <tr class="grp"><td colspan="3">More tools (fold-out at the bottom of the menu)</td></tr>
+  <tr><td>Bank view (demo)</td><td class="where">More tools</td><td>Act as the bank: <b>Genuine</b>, <b>Details differ</b>, <b>Not found</b>, <b>Mark lien</b>. Opens in a new tab. Use <b>Back to dashboard</b> to leave.</td></tr>
+  <tr><td>Check a receipt</td><td class="where">More tools</td><td>Upload a photo, use the camera or paste a link. Shows if the receipt is genuine.</td></tr>
+  <tr><td>Maturity dates</td><td class="where">More tools</td><td>FDRs ending soon or overdue. Remind those colleges to renew.</td></tr>
+  <tr><td>Return a deposit</td><td class="where">More tools</td><td>Checklist before giving an FDR back. Every item must be <b>Done</b>.</td></tr>
+  <tr><td>Duplicate map</td><td class="where">More tools</td><td>Circles are FDRs; a line means they match. Click a circle to open it.</td></tr>
+  <tr><td>Activity log</td><td class="where">More tools</td><td>Every action, chained. <b>Check nothing was changed</b>; demo with <b>Simulate tampering</b>, then <b>Restore</b>.</td></tr>
+  <tr><td>Demo test cases</td><td class="where">More tools</td><td><b>Inject test cases</b> to add fake problem FDRs and watch them get caught. <b>Remove test records</b> after.</td></tr>
+  <tr class="grp"><td colspan="3">Other</td></tr>
+  <tr><td>QR receipt</td><td class="where">FDR page</td><td><b>Download image</b> to save it, <b>Check it</b> to verify.</td></tr>
+  <tr><td>Profile / Settings</td><td class="where">Top-right name</td><td><b>Sign out</b>, theme and preferences. <b>Clear local data</b> to start fresh.</td></tr>
+</table>
+
+<div class="page2"></div>
+<div class="two">
+  <div>
+    <h2>Status labels</h2>
+    <table>
+      <tr><td><span class="pill g">Safe</span></td><td>Confirmed and locked. Nothing to do.</td></tr>
+      <tr><td><span class="pill w">Safe · matures soon</span></td><td>Remind the college to renew.</td></tr>
+      <tr><td><span class="pill x">Waiting for bank</span></td><td>Asked the bank, no reply yet.</td></tr>
+      <tr><td><span class="pill b">Needs action</span></td><td>A problem was found. Open it.</td></tr>
+      <tr><td><span class="pill b">Bank problem</span></td><td>Details differ or not found at bank.</td></tr>
+      <tr><td><span class="pill b">Closed at bank</span></td><td>AICTE is no longer protected.</td></tr>
+      <tr><td><span class="pill x">Returned</span></td><td>Given back to the college.</td></tr>
+    </table>
+  </div>
+  <div>
+    <h2>5-minute demo</h2>
+    <table class="demo">
+      <tr><td>0:00</td><td><b>Home</b> — explain the problem.</td></tr>
+      <tr><td>0:30</td><td><b>Add an FDR</b> → Phone photo sample. Save.</td></tr>
+      <tr><td>1:30</td><td><b>Add an FDR</b> → Duplicate sample. It gets caught.</td></tr>
+      <tr><td>2:15</td><td><b>FDR page</b> → Ask to confirm; in <b>Bank view</b> press Genuine and Mark lien.</td></tr>
+      <tr><td>3:15</td><td><b>Give QR receipt</b>, scan it with a phone, then "Try to fake it".</td></tr>
+      <tr><td>4:15</td><td><b>Activity log</b> → Simulate tampering → caught → Restore.</td></tr>
+    </table>
+  </div>
+</div>
+
+<h2>Good to know</h2>
+<ul>
+  <li><b>All data is made up.</b> No real colleges, banks or deposits.</li>
+  <li><b>Each browser keeps its own copy.</b> What you add on your laptop won't show on another device.</li>
+  <li><b>Bank view syncs only with tabs in the same browser.</b></li>
+  <li><b>Start over:</b> Settings → Clear local data.</li>
+  <li><b>Prototype:</b> the bank is simulated and the receipt key is a demo key.</li>
+</ul>
+
+<footer>FDR Sentinel X · SIH 2026 prototype · fdr-sentinel-x.vercel.app</footer>
+</body></html>

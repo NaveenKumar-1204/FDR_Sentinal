@@ -1,0 +1,38 @@
+[
+  {
+    "file": "clean-ledger.jpg",
+    "title": "Clear PDF",
+    "note": "Easy to read",
+    "quality": "clean",
+    "template": "ledger"
+  },
+  {
+    "file": "phone-certificate.jpg",
+    "title": "Phone photo",
+    "note": "Tilted with shadows",
+    "quality": "phone",
+    "template": "certificate"
+  },
+  {
+    "file": "scan-modern.jpg",
+    "title": "Office scan",
+    "note": "Scanned in an office",
+    "quality": "scan",
+    "template": "modern"
+  },
+  {
+    "file": "typewriter.jpg",
+    "title": "Typewriter style",
+    "note": "Older bank format",
+    "quality": "scan",
+    "template": "typewriter"
+  },
+  {
+    "file": "duplicate.jpg",
+    "title": "Duplicate (try this!)",
+    "note": "Same FDR as FDR-0013, should be caught",
+    "quality": "phone",
+    "template": "modern",
+    "duplicateOf": "FDR-0013"
+  }
+]

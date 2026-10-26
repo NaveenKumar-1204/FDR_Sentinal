@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-10-23T18:06:22.033Z",
+  "split": "test",
+  "documents": 240,
+  "engine": "Tesseract 5 LSTM (tesseract.js 7, eng best_int) + FDR Sentinel two-pass extractor",
+  "overall": {
+    "fields": 2160,
+    "correct": 1879,
+    "flagged": 660,
+    "silentErrors": 3,
+    "accuracy": 0.8699074074074075,
+    "flagRate": 0.3055555555555556,
+    "autoAcceptPrecision": 0.998
+  },
+  "byField": {
+    "fdrNumber": {
+      "fields": 240,
+      "correct": 206,
+      "flagged": 81,
+      "silentErrors": 0,
+      "accuracy": 0.8583333333333333,
+      "flagRate": 0.3375,
+      "autoAcceptPrecision": 1
+    },
+    "bank": {
+      "fields": 240,
+      "correct": 236,
+      "flagged": 8,
+      "silentErrors": 0,
+      "accuracy": 0.9833333333333333,
+      "flagRate": 0.03333333333333333,
+      "autoAcceptPrecision": 1
+    },
+    "branch": {
+      "fields": 240,
+      "correct": 204,
+      "flagged": 46,
+      "silentErrors": 2,
+      "accuracy": 0.85,
+      "flagRate": 0.19166666666666668,
+      "autoAcceptPrecision": 0.9896907216494846
+    },
+    "ifsc": {
+      "fields": 240,
+      "correct": 182,
+      "flagged": 116,
+      "silentErrors": 0,
+      "accuracy": 0.7583333333333333,
+      "flagRate": 0.48333333333333334,
+      "autoAcceptPrecision": 1
+    },
+    "accountHolder": {
+      "fields": 240,
+      "correct": 200,
+      "flagged": 69,
+      "silentErrors": 1,
+      "accuracy": 0.8333333333333334,
+      "flagRate": 0.2875,
+      "autoAcceptPrecision": 0.9941520467836257
+    },
+    "amount": {
+      "fields": 240,
+      "correct": 230,
+      "flagged": 63,
+      "silentErrors": 0,
+      "accuracy": 0.9583333333333334,
+      "flagRate": 0.2625,
+      "autoAcceptPrecision": 1
+    },
+    "issueDate": {
+      "fields": 240,
+      "correct": 208,
+      "flagged": 97,
+      "silentErrors": 0,
+      "accuracy": 0.8666666666666667,
+      "flagRate": 0.4041666666666667,
+      "autoAcceptPrecision": 1
+    },
+    "maturityDate": {
+      "fields": 240,
+      "correct": 209,
+      "flagged": 99,
+      "silentErrors": 0,
+      "accuracy": 0.8708333333333333,
+      "flagRate": 0.4125,
+      "autoAcceptPrecision": 1
+    },
+    "interestRate": {
+      "fields": 240,
+      "correct": 204,
+      "flagged": 81,
+      "silentErrors": 0,
+      "accuracy": 0.85,
+      "flagRate": 0.3375,
+      "autoAcceptPrecision": 1
+    }
+  },
+  "byQuality": {
+    "clean": {
+      "fields": 540,
+      "correct": 521,
+      "flagged": 92,
+      "silentErrors": 0,
+      "accuracy": 0.9648148148148148,
+      "flagRate": 0.17037037037037037,
+      "autoAcceptPrecision": 1,
+      "documents": 60,
+      "documentsPerfect": 50,
+      "documentsNoFlags": 23
+    },
+    "scan": {
+      "fields": 540,
+      "correct": 520,
+      "flagged": 78,
+      "silentErrors": 0,
+      "accuracy": 0.9629629629629629,
+      "flagRate": 0.14444444444444443,
+      "autoAcceptPrecision": 1,
+      "documents": 60,
+      "documentsPerfect": 44,
+      "documentsNoFlags": 24
+    },
+    "phone": {
+      "fields": 648,
+      "correct": 601,
+      "flagged": 147,
+      "silentErrors": 1,
+      "accuracy": 0.9274691358024691,
+      "flagRate": 0.22685185185185186,
+      "autoAcceptPrecision": 0.998003992015968,
+      "documents": 72,
+      "documentsPerfect": 45,
+      "documentsNoFlags": 18
+    },
+    "lowres": {
+      "fields": 432,
+      "correct": 237,
+      "flagged": 343,
+      "silentErrors": 2,
+      "accuracy": 0.5486111111111112,
+      "flagRate": 0.7939814814814815,
+      "autoAcceptPrecision": 0.9775280898876404,
+      "documents": 48,
+      "documentsPerfect": 0,
+      "documentsNoFlags": 0
+    }
+  },
+  "byTemplate": {
+    "certificate": {
+      "fields": 540,
+      "correct": 474,
+      "flagged": 167,
+      "silentErrors": 0,
+      "accuracy": 0.8777777777777778,
+      "flagRate": 0.30925925925925923,
+      "autoAcceptPrecision": 1
+    },
+    "ledger": {
+      "fields": 540,
+      "correct": 451,
+      "flagged": 193,
+      "silentErrors": 1,
+      "accuracy": 0.8351851851851851,
+      "flagRate": 0.3574074074074074,
+      "autoAcceptPrecision": 0.9971181556195965
+    },
+    "modern": {
+      "fields": 540,
+      "correct": 486,
+      "flagged": 146,
+      "silentErrors": 0,
+      "accuracy": 0.9,
+      "flagRate": 0.27037037037037037,
+      "autoAcceptPrecision": 1
+    },
+    "typewriter": {
+      "fields": 540,
+      "correct": 468,
+      "flagged": 154,
+      "silentErrors": 2,
+      "accuracy": 0.8666666666666667,
+      "flagRate": 0.2851851851851852,
+      "autoAcceptPrecision": 0.9948186528497409
+    }
+  },
+  "meanMsPerDocument": 6456
+}

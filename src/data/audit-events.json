@@ -1,0 +1,1360 @@
+[
+  {
+    "at": "2021-05-06T16:27:00Z",
+    "actor": "College portal · SYN-1-4322",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0024",
+    "detail": "File SHA-256 7c340b66253a…"
+  },
+  {
+    "at": "2021-05-06T16:27:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0024",
+    "detail": "8 fields, min confidence 0.87"
+  },
+  {
+    "at": "2021-05-06T16:27:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0024",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2021-05-09T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0024",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2021-06-09T15:22:00Z",
+    "actor": "College portal · SYN-1-4211",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0012",
+    "detail": "File SHA-256 f24fd79a00f1…"
+  },
+  {
+    "at": "2021-06-09T15:22:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0012",
+    "detail": "8 fields, min confidence 0.89"
+  },
+  {
+    "at": "2021-06-09T15:22:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0012",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2021-06-12T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0012",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2021-06-13T16:46:00Z",
+    "actor": "College portal · SYN-1-4507",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0039",
+    "detail": "File SHA-256 83ad626911e5…"
+  },
+  {
+    "at": "2021-06-13T16:46:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0039",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2021-06-13T16:46:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0039",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2021-06-16T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0039",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2021-08-12T15:49:00Z",
+    "actor": "College portal · SYN-1-4433",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0033",
+    "detail": "File SHA-256 e5f34dff357b…"
+  },
+  {
+    "at": "2021-08-12T15:49:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0033",
+    "detail": "8 fields, min confidence 0.88"
+  },
+  {
+    "at": "2021-08-12T15:49:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0033",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2021-08-15T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0033",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2021-08-17T10:16:00Z",
+    "actor": "College portal · SYN-1-4100",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0001",
+    "detail": "File SHA-256 18d51330e626…"
+  },
+  {
+    "at": "2021-08-17T10:16:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0001",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2021-08-17T10:16:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0001",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2021-08-20T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0001",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2021-12-15T14:37:00Z",
+    "actor": "College portal · SYN-1-4211",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0010",
+    "detail": "File SHA-256 bb3957359d45…"
+  },
+  {
+    "at": "2021-12-15T14:37:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0010",
+    "detail": "8 fields, min confidence 0.86"
+  },
+  {
+    "at": "2021-12-15T14:37:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0010",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2021-12-18T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0010",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2021-12-20T14:06:00Z",
+    "actor": "College portal · SYN-1-4470",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0036",
+    "detail": "File SHA-256 6125b47fccb6…"
+  },
+  {
+    "at": "2021-12-20T14:06:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0036",
+    "detail": "8 fields, min confidence 0.89"
+  },
+  {
+    "at": "2021-12-20T14:06:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0036",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2021-12-23T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0036",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2022-01-12T10:10:00Z",
+    "actor": "College portal · SYN-1-4137",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0006",
+    "detail": "File SHA-256 9afd79c14c84…"
+  },
+  {
+    "at": "2022-01-12T10:10:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0006",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2022-01-12T10:10:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0006",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2022-01-15T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0006",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2022-04-08T10:04:00Z",
+    "actor": "College portal · SYN-1-4359",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0027",
+    "detail": "File SHA-256 5d91ac35a6cc…"
+  },
+  {
+    "at": "2022-04-08T10:04:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0027",
+    "detail": "8 fields, min confidence 0.87"
+  },
+  {
+    "at": "2022-04-08T10:04:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0027",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2022-04-11T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0027",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2022-04-22T11:00:00Z",
+    "actor": "College portal · SYN-1-4322",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0025",
+    "detail": "File SHA-256 5c540c63c8c5…"
+  },
+  {
+    "at": "2022-04-22T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0025",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2022-04-22T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0025",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2022-04-25T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0025",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2022-07-30T11:00:00Z",
+    "actor": "College portal · SYN-1-4433",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0034",
+    "detail": "File SHA-256 e23df36a9d35…"
+  },
+  {
+    "at": "2022-07-30T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0034",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2022-07-30T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0034",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2022-11-18T13:08:00Z",
+    "actor": "College portal · SYN-1-4211",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0014",
+    "detail": "File SHA-256 c712dccab605…"
+  },
+  {
+    "at": "2022-11-18T13:08:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0014",
+    "detail": "8 fields, min confidence 0.89"
+  },
+  {
+    "at": "2022-11-18T13:08:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0014",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2022-11-21T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0014",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2022-12-09T11:00:00Z",
+    "actor": "College portal · SYN-1-4211",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0011",
+    "detail": "File SHA-256 4cd861c3cb7d…"
+  },
+  {
+    "at": "2022-12-09T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0011",
+    "detail": "8 fields, min confidence 0.89"
+  },
+  {
+    "at": "2022-12-09T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0011",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2022-12-12T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0011",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2023-04-20T10:20:00Z",
+    "actor": "College portal · SYN-1-4285",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0019",
+    "detail": "File SHA-256 785153170739…"
+  },
+  {
+    "at": "2023-04-20T10:20:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0019",
+    "detail": "8 fields, min confidence 0.86"
+  },
+  {
+    "at": "2023-04-20T10:20:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0019",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2023-04-23T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0019",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2023-08-16T10:00:00Z",
+    "actor": "College portal · SYN-1-4137",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0007",
+    "detail": "File SHA-256 fac104f4a034…"
+  },
+  {
+    "at": "2023-08-16T10:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0007",
+    "detail": "8 fields, min confidence 0.91"
+  },
+  {
+    "at": "2023-08-16T10:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0007",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2023-08-19T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0007",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2023-08-28T09:44:00Z",
+    "actor": "College portal · SYN-1-4507",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0041",
+    "detail": "File SHA-256 02f61f8b4ea0…"
+  },
+  {
+    "at": "2023-08-28T09:44:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0041",
+    "detail": "8 fields, min confidence 0.86"
+  },
+  {
+    "at": "2023-08-28T09:44:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0041",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2023-08-31T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0041",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2023-09-21T10:00:00Z",
+    "actor": "College portal · SYN-1-4396",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0029",
+    "detail": "File SHA-256 cb17276f4651…"
+  },
+  {
+    "at": "2023-09-21T10:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0029",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2023-09-21T10:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0029",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2023-09-24T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0029",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2023-11-07T10:00:00Z",
+    "actor": "College portal · SYN-1-4174",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0009",
+    "detail": "File SHA-256 6ae766422d8a…"
+  },
+  {
+    "at": "2023-11-07T10:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0009",
+    "detail": "8 fields, min confidence 0.85"
+  },
+  {
+    "at": "2023-11-07T10:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0009",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2023-11-10T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0009",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2023-11-22T10:00:00Z",
+    "actor": "College portal · SYN-1-4100",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0002",
+    "detail": "File SHA-256 9ac22738ee5d…"
+  },
+  {
+    "at": "2023-11-22T10:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0002",
+    "detail": "8 fields, min confidence 0.88"
+  },
+  {
+    "at": "2023-11-22T10:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0002",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2023-11-25T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0002",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2023-12-08T13:55:00Z",
+    "actor": "College portal · SYN-1-4470",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0038",
+    "detail": "File SHA-256 fb2dbf48bd76…"
+  },
+  {
+    "at": "2023-12-08T13:55:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0038",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2023-12-08T13:55:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0038",
+    "detail": "Response: pending"
+  },
+  {
+    "at": "2023-12-09T10:00:00Z",
+    "actor": "College portal · SYN-1-4248",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0018",
+    "detail": "File SHA-256 5d5d141e3fe7…"
+  },
+  {
+    "at": "2023-12-09T10:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0018",
+    "detail": "8 fields, min confidence 0.86"
+  },
+  {
+    "at": "2023-12-09T10:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0018",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2023-12-11T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0038",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2023-12-12T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0018",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2023-12-24T11:00:00Z",
+    "actor": "College portal · SYN-1-4470",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0037",
+    "detail": "File SHA-256 4d354f156797…"
+  },
+  {
+    "at": "2023-12-24T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0037",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2023-12-24T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0037",
+    "detail": "Response: mismatch"
+  },
+  {
+    "at": "2023-12-27T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0037",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2023-12-31T10:00:00Z",
+    "actor": "College portal · SYN-1-4544",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0044",
+    "detail": "File SHA-256 a0fe9d6c42c2…"
+  },
+  {
+    "at": "2023-12-31T10:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0044",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2023-12-31T10:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0044",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2024-01-03T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0044",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2024-01-20T15:13:00Z",
+    "actor": "College portal · SYN-1-4396",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0031",
+    "detail": "File SHA-256 ccd7b79a80fc…"
+  },
+  {
+    "at": "2024-01-20T15:13:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0031",
+    "detail": "8 fields, min confidence 0.86"
+  },
+  {
+    "at": "2024-01-20T15:13:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0031",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2024-01-23T10:00:00Z",
+    "actor": "College portal · SYN-1-4174",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0008",
+    "detail": "File SHA-256 82f9a5e7256f…"
+  },
+  {
+    "at": "2024-01-23T10:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0008",
+    "detail": "8 fields, min confidence 0.88"
+  },
+  {
+    "at": "2024-01-23T10:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0008",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2024-01-26T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0008",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2024-06-03T11:00:00Z",
+    "actor": "College portal · SYN-1-4507",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0040",
+    "detail": "File SHA-256 ebdc8d7cf37b…"
+  },
+  {
+    "at": "2024-06-03T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0040",
+    "detail": "8 fields, min confidence 0.89"
+  },
+  {
+    "at": "2024-06-03T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0040",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2024-06-03T12:09:00Z",
+    "actor": "College portal · SYN-1-4285",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0022",
+    "detail": "File SHA-256 4326c09a469b…"
+  },
+  {
+    "at": "2024-06-03T12:09:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0022",
+    "detail": "8 fields, min confidence 0.88"
+  },
+  {
+    "at": "2024-06-03T12:09:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0022",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2024-06-06T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0040",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2024-06-28T11:27:00Z",
+    "actor": "College portal · SYN-1-4433",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0035",
+    "detail": "File SHA-256 d71ea9d0fbe0…"
+  },
+  {
+    "at": "2024-06-28T11:27:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0035",
+    "detail": "8 fields, min confidence 0.89"
+  },
+  {
+    "at": "2024-06-28T11:27:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0035",
+    "detail": "Response: pending"
+  },
+  {
+    "at": "2024-07-01T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0035",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2024-08-09T09:49:00Z",
+    "actor": "College portal · SYN-1-4544",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0043",
+    "detail": "File SHA-256 e14ad4a29af0…"
+  },
+  {
+    "at": "2024-08-09T09:49:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0043",
+    "detail": "8 fields, min confidence 0.89"
+  },
+  {
+    "at": "2024-08-09T09:49:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0043",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2024-12-28T15:06:00Z",
+    "actor": "College portal · SYN-1-4581",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0046",
+    "detail": "File SHA-256 cdb437846b5b…"
+  },
+  {
+    "at": "2024-12-28T15:06:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0046",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2024-12-28T15:06:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0046",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2024-12-31T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0046",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2025-01-04T10:11:00Z",
+    "actor": "College portal · SYN-1-4100",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0003",
+    "detail": "File SHA-256 cbeb7138b865…"
+  },
+  {
+    "at": "2025-01-04T10:11:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0003",
+    "detail": "8 fields, min confidence 0.89"
+  },
+  {
+    "at": "2025-01-04T10:11:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0003",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2025-01-07T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0003",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2025-01-19T11:37:00Z",
+    "actor": "College portal · SYN-1-4248",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0016",
+    "detail": "File SHA-256 bea9d625ce0d…"
+  },
+  {
+    "at": "2025-01-19T11:37:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0016",
+    "detail": "8 fields, min confidence 0.88"
+  },
+  {
+    "at": "2025-01-19T11:37:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0016",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2025-01-22T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0016",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2025-02-01T10:36:00Z",
+    "actor": "College portal · SYN-1-4137",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0005",
+    "detail": "File SHA-256 c4613584df5f…"
+  },
+  {
+    "at": "2025-02-01T10:36:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0005",
+    "detail": "8 fields, min confidence 0.86"
+  },
+  {
+    "at": "2025-02-01T10:36:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0005",
+    "detail": "Response: pending"
+  },
+  {
+    "at": "2025-02-04T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0005",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2025-02-26T15:39:00Z",
+    "actor": "College portal · SYN-1-4322",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0023",
+    "detail": "File SHA-256 5a93c0331c7a…"
+  },
+  {
+    "at": "2025-02-26T15:39:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0023",
+    "detail": "8 fields, min confidence 0.88"
+  },
+  {
+    "at": "2025-02-26T15:39:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0023",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2025-03-01T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0023",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2025-03-04T09:18:00Z",
+    "actor": "College portal · SYN-1-4248",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0017",
+    "detail": "File SHA-256 d45ed37061cf…"
+  },
+  {
+    "at": "2025-03-04T09:18:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0017",
+    "detail": "8 fields, min confidence 0.86"
+  },
+  {
+    "at": "2025-03-04T09:18:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0017",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2025-03-07T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0017",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2025-04-10T17:33:00Z",
+    "actor": "College portal · SYN-1-4285",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0021",
+    "detail": "File SHA-256 37ec77200362…"
+  },
+  {
+    "at": "2025-04-10T17:33:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0021",
+    "detail": "8 fields, min confidence 0.85"
+  },
+  {
+    "at": "2025-04-10T17:33:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0021",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2025-04-11T11:00:00Z",
+    "actor": "College portal · SYN-1-4359",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0028",
+    "detail": "File SHA-256 fa0265f0ff69…"
+  },
+  {
+    "at": "2025-04-11T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0028",
+    "detail": "8 fields, min confidence 0.88"
+  },
+  {
+    "at": "2025-04-11T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0028",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2025-04-14T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0028",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2025-10-17T14:14:00Z",
+    "actor": "College portal · SYN-1-4581",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0045",
+    "detail": "File SHA-256 d646fde0b0a4…"
+  },
+  {
+    "at": "2025-10-17T14:14:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0045",
+    "detail": "8 fields, min confidence 0.53"
+  },
+  {
+    "at": "2025-10-17T14:14:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0045",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2025-10-20T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0045",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2025-10-23T14:40:00Z",
+    "actor": "College portal · SYN-1-4359",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0026",
+    "detail": "File SHA-256 49f5da16aabb…"
+  },
+  {
+    "at": "2025-10-23T14:40:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0026",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2025-10-23T14:40:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0026",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2025-11-09T11:00:00Z",
+    "actor": "College portal · SYN-1-4211",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0015",
+    "detail": "File SHA-256 dc51c0690b8a…"
+  },
+  {
+    "at": "2025-11-09T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0015",
+    "detail": "8 fields, min confidence 0.61"
+  },
+  {
+    "at": "2025-11-09T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0015",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2025-11-12T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0015",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2025-12-30T11:00:00Z",
+    "actor": "College portal · SYN-1-4100",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0004",
+    "detail": "File SHA-256 d279fafde2f1…"
+  },
+  {
+    "at": "2025-12-30T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0004",
+    "detail": "8 fields, min confidence 0.87"
+  },
+  {
+    "at": "2025-12-30T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0004",
+    "detail": "Response: not-found"
+  },
+  {
+    "at": "2026-01-02T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0004",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2026-02-20T11:09:00Z",
+    "actor": "College portal · SYN-1-4433",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0032",
+    "detail": "File SHA-256 7306e1f18d23…"
+  },
+  {
+    "at": "2026-02-20T11:09:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0032",
+    "detail": "8 fields, min confidence 0.87"
+  },
+  {
+    "at": "2026-02-20T11:09:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0032",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2026-02-23T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0032",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2026-04-20T11:00:00Z",
+    "actor": "College portal · SYN-1-4285",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0020",
+    "detail": "File SHA-256 f8d882400003…"
+  },
+  {
+    "at": "2026-04-20T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0020",
+    "detail": "8 fields, min confidence 0.54"
+  },
+  {
+    "at": "2026-04-20T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0020",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2026-04-21T14:30:00Z",
+    "actor": "College portal · SYN-1-4396",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0030",
+    "detail": "File SHA-256 12ce1636b38c…"
+  },
+  {
+    "at": "2026-04-21T14:30:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0030",
+    "detail": "8 fields, min confidence 0.91"
+  },
+  {
+    "at": "2026-04-21T14:30:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0030",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2026-04-23T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0020",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2026-04-24T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0030",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2026-06-09T11:00:00Z",
+    "actor": "College portal · SYN-1-4211",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0013",
+    "detail": "File SHA-256 f8ac47cf2547…"
+  },
+  {
+    "at": "2026-06-09T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0013",
+    "detail": "8 fields, min confidence 0.88"
+  },
+  {
+    "at": "2026-06-09T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0013",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2026-06-12T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0013",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2026-08-24T11:00:00Z",
+    "actor": "College portal · SYN-1-4507",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0042",
+    "detail": "File SHA-256 125c05f190ca…"
+  },
+  {
+    "at": "2026-08-24T11:00:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0042",
+    "detail": "8 fields, min confidence 0.87"
+  },
+  {
+    "at": "2026-08-24T11:00:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0042",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2026-09-10T10:30:00Z",
+    "actor": "College portal · SYN-1-4359",
+    "action": "Release requested",
+    "fdrId": "FDR-0028",
+    "detail": "Matured — release requested"
+  },
+  {
+    "at": "2026-09-14T10:12:00Z",
+    "actor": "College portal · SYN-1-4285",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0047",
+    "detail": "File SHA-256 9ac22738ee5d…"
+  },
+  {
+    "at": "2026-09-14T10:12:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0047",
+    "detail": "8 fields, min confidence 0.88"
+  },
+  {
+    "at": "2026-09-14T10:12:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0047",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2026-09-16T10:30:00Z",
+    "actor": "College portal · SYN-1-4507",
+    "action": "Release requested",
+    "fdrId": "FDR-0040",
+    "detail": "Programme discontinued"
+  },
+  {
+    "at": "2026-09-17T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0047",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2026-10-02T15:40:00Z",
+    "actor": "College portal · SYN-1-4470",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0048",
+    "detail": "File SHA-256 0326730e7285…"
+  },
+  {
+    "at": "2026-10-02T15:40:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0048",
+    "detail": "8 fields, min confidence 0.89"
+  },
+  {
+    "at": "2026-10-02T15:40:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0048",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2026-10-03T10:30:00Z",
+    "actor": "College portal · SYN-1-4433",
+    "action": "Release requested",
+    "fdrId": "FDR-0032",
+    "detail": "Institution closure approved"
+  },
+  {
+    "at": "2026-10-05T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0048",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2026-10-10T10:30:00Z",
+    "actor": "College portal · SYN-1-4322",
+    "action": "Release requested",
+    "fdrId": "FDR-0023",
+    "detail": "Deposit replaced by bank guarantee"
+  },
+  {
+    "at": "2026-10-11T12:05:00Z",
+    "actor": "College portal · SYN-1-4359",
+    "action": "FDR uploaded",
+    "fdrId": "FDR-0049",
+    "detail": "File SHA-256 7922d8d28f7d…"
+  },
+  {
+    "at": "2026-10-11T12:05:20Z",
+    "actor": "System · OCR",
+    "action": "Fields extracted",
+    "fdrId": "FDR-0049",
+    "detail": "8 fields, min confidence 0.90"
+  },
+  {
+    "at": "2026-10-11T12:05:40Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Bank verification",
+    "fdrId": "FDR-0049",
+    "detail": "Response: verified"
+  },
+  {
+    "at": "2026-10-14T12:00:00Z",
+    "actor": "Bank gateway (simulated)",
+    "action": "Lien confirmed",
+    "fdrId": "FDR-0049",
+    "detail": "Deposit locked in favour of AICTE"
+  },
+  {
+    "at": "2026-10-15T16:00:00Z",
+    "actor": "Officer · FDR Cell",
+    "action": "Deposit released",
+    "fdrId": "FDR-0032",
+    "detail": "All checklist items cleared"
+  }
+]

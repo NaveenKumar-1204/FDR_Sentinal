@@ -1,0 +1,114 @@
+[
+  {
+    "id": "INS-001",
+    "name": "Aravali Ridge Institute of Technology",
+    "state": "Rajasthan",
+    "city": "Udaipur",
+    "trustName": "Aravali Ridge Educational Trust",
+    "aicteId": "SYN-1-4100"
+  },
+  {
+    "id": "INS-002",
+    "name": "Kaveri Delta College of Engineering",
+    "state": "Tamil Nadu",
+    "city": "Thanjavur",
+    "trustName": "Kaveri Delta Education Society",
+    "aicteId": "SYN-1-4137"
+  },
+  {
+    "id": "INS-003",
+    "name": "Vindhya Valley Engineering College",
+    "state": "Madhya Pradesh",
+    "city": "Jabalpur",
+    "trustName": "Vindhya Valley Shiksha Samiti",
+    "aicteId": "SYN-1-4174"
+  },
+  {
+    "id": "INS-004",
+    "name": "Nilgiri Heights Institute of Technology",
+    "state": "Tamil Nadu",
+    "city": "Coimbatore",
+    "trustName": "Nilgiri Heights Charitable Trust",
+    "aicteId": "SYN-1-4211"
+  },
+  {
+    "id": "INS-005",
+    "name": "Konkan Coast College of Engineering",
+    "state": "Maharashtra",
+    "city": "Ratnagiri",
+    "trustName": "Konkan Coast Education Trust",
+    "aicteId": "SYN-1-4248"
+  },
+  {
+    "id": "INS-006",
+    "name": "Deccan Plateau Institute of Management",
+    "state": "Telangana",
+    "city": "Warangal",
+    "trustName": "Deccan Plateau Learning Society",
+    "aicteId": "SYN-1-4285"
+  },
+  {
+    "id": "INS-007",
+    "name": "Brahmaputra Valley Polytechnic",
+    "state": "Assam",
+    "city": "Guwahati",
+    "trustName": "Brahmaputra Valley Vidya Trust",
+    "aicteId": "SYN-1-4322"
+  },
+  {
+    "id": "INS-008",
+    "name": "Malabar Shore Engineering College",
+    "state": "Kerala",
+    "city": "Kozhikode",
+    "trustName": "Malabar Shore Educational Society",
+    "aicteId": "SYN-1-4359"
+  },
+  {
+    "id": "INS-009",
+    "name": "Satpura Range Institute of Technology",
+    "state": "Maharashtra",
+    "city": "Nagpur",
+    "trustName": "Satpura Range Shikshan Sanstha",
+    "aicteId": "SYN-1-4396"
+  },
+  {
+    "id": "INS-010",
+    "name": "Godavari Basin College of Pharmacy",
+    "state": "Andhra Pradesh",
+    "city": "Rajahmundry",
+    "trustName": "Godavari Basin Health Education Trust",
+    "aicteId": "SYN-1-4433"
+  },
+  {
+    "id": "INS-011",
+    "name": "Thar Desert Institute of Engineering",
+    "state": "Rajasthan",
+    "city": "Jodhpur",
+    "trustName": "Thar Desert Technical Education Trust",
+    "aicteId": "SYN-1-4470"
+  },
+  {
+    "id": "INS-012",
+    "name": "Mahanadi Delta Institute of Technology",
+    "state": "Odisha",
+    "city": "Cuttack",
+    "trustName": "Mahanadi Delta Education Foundation",
+    "aicteId": "SYN-1-4507"
+  },
+  {
+    "id": "INS-013",
+    "name": "Ganga Plains Engineering College",
+    "state": "Uttar Pradesh",
+    "city": "Varanasi",
+    "trustName": "Ganga Plains Vidya Peeth Trust",
+    "aicteId": "SYN-1-4544"
+  },
+  {
+    "id": "INS-014",
+    "name": "Western Ghats College of Architecture",
+    "state": "Karnataka",
+    "city": "Mangaluru",
+    "trustName": "Western Ghats Design Education Society",
+    "aicteId": "SYN-1-4581"
+  }
+]
